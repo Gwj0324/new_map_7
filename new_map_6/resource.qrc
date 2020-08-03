@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/advertisement1.gif</file>
+        <file>image/advertisement2.gif</file>
+        <file>image/advertisement3.gif</file>
+        <file>image/back(1).jpg</file>
+        <file>image/back.jpg</file>
+        <file>image/back2.jpg</file>
+        <file>image/map.png</file>
+        <file>image/panda.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>StyleSheet/style.css</file>
+    </qresource>
+</RCC>

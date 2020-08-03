@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>391</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>750</width>
+    <height>391</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>553</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>553</width>
+     <height>391</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>553</width>
+     <height>391</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/image/back(1).jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>0</y>
+     <width>197</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>197</width>
+     <height>391</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>197</width>
+     <height>391</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="dockWidgetContents">
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #333333;
+    color: white;
+    padding:1px 2em 1px 3px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    border-left: 1px solid #333333;
+}
+
+QComboBox::down-arrow {
+   
+    width: 10px;
+    height:10px;
+    
+    image: url(:/new/prefix1/image/2.png);
+}
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F11店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F12店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F13店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F14店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F15店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F16店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F17店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F18店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F19店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F110店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F111店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F112店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F113店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F114店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F115店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F116店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F117店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F118店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F119店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F120店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F121店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F122店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F21店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F22店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F23店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F24店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F25店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F26店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F27店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F28店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F29店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F210店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F211店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F212店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F213店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F214店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F215店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F216店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F217店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F218店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F219店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F220店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F221店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F222店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F223店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F224店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F31店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F32店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F33店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F34店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F35店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F36店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F37店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F38店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F39店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F310店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F311店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F312店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F313店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F314店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F315店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F316店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F317店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F318店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F319店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F320店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F321店铺</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F322店铺</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>332</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>190</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>显示所选终点</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>260</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>搜索终点方式一：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>搜索终点方式二：</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>S1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_16">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>S2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_17">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>S3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>40</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>S4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_19">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>S5</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>9</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>选择起始点：</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>290</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>楼梯</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_21">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>290</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>电梯</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>320</y>
+     <width>75</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导航</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>170</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>220</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
